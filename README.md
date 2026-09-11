@@ -193,9 +193,6 @@ ms-vehiculos/
 │       │       └── VehiculoService.java              # Lógica de negocio
 │       └── resources/
 │           └── application.yml                       # Configuración de la aplicación
-├── md/                                               # Documentación adicional
-│   ├── Guia_Despliegue_MS_Vehiculos_AWS (1).md       # Guía paso a paso de despliegue
-│   └── EP1_DOY0101_Estudiante.md                     # Enunciado de la evaluación
 ├── pom.xml                                           # Configuración Maven
 ├── mvnw / mvnw.cmd                                   # Maven Wrapper
 ├── .gitignore                                        # Archivos ignorados por Git
@@ -221,7 +218,7 @@ ms-vehiculos/
 
 ## 9. Despliegue
 
-El microservicio se despliega en **2 instancias AWS EC2** con Ubuntu. Consulta la [Guía de Despliegue](md/Guia_Despliegue_MS_Vehiculos_AWS%20(1).md) para el procedimiento paso a paso.
+El microservicio se despliega en **2 instancias AWS EC2** con Ubuntu.
 
 | Instancia | IP Pública | Puerto | Rol |
 |-----------|-----------|--------|-----|
