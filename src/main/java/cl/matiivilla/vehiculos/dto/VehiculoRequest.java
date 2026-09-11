@@ -21,6 +21,7 @@ public class VehiculoRequest {
 
     @NotNull(message = "El año es obligatorio")
     @Min(value = 1950, message = "El año debe ser mayor o igual a 1950")
+    @jakarta.validation.constraints.Max(value = 2026, message = "El año no puede ser superior al actual")
     private Integer anio;
 
     private String color;
