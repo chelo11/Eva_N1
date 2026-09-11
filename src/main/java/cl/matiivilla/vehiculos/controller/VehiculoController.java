@@ -4,6 +4,8 @@ import cl.matiivilla.vehiculos.dto.VehiculoRequest;
 import cl.matiivilla.vehiculos.dto.VehiculoResponse;
 import cl.matiivilla.vehiculos.service.VehiculoService;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -15,8 +17,9 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/vehiculos")
+@CrossOrigin(origins = "*")
 @RequiredArgsConstructor
-@Tag(name = "Vehículos", description = "CRUD de vehículos")
+@Tag(name = "Vehículos", description = "Operaciones CRUD para la gestión del catálogo de vehículos")
 public class VehiculoController {
 
     private final VehiculoService vehiculoService;
