@@ -36,6 +36,12 @@ public class VehiculoController {
         return vehiculoService.findById(id);
     }
 
+    @GetMapping("/patente/{patente}")
+    @Operation(summary = "Buscar un vehículo por patente")
+    public VehiculoResponse findByPatente(@PathVariable String patente) {
+        return vehiculoService.findByPatente(patente);
+    }
+
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     @Operation(summary = "Crear un vehículo nuevo")

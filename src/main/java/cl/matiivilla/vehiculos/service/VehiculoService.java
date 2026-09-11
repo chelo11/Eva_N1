@@ -27,6 +27,13 @@ public class VehiculoService {
         return toResponse(buscarOFallar(id));
     }
 
+    public VehiculoResponse findByPatente(String patente) {
+        Vehiculo vehiculo = vehiculoRepository.findByPatente(patente)
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND,
+                        "No se encontró el vehículo con patente " + patente));
+        return toResponse(vehiculo);
+    }
+
     public VehiculoResponse create(VehiculoRequest request) {
         if (vehiculoRepository.existsByPatente(request.getPatente())) {
             throw new ResponseStatusException(HttpStatus.CONFLICT,
