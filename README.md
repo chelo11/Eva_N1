@@ -1,3 +1,4 @@
+
 # MS-Vehiculos — Pipeline de Despliegue (EP1 - Ingeniería DevOps)
 
 ## Integrantes
@@ -253,3 +254,4 @@ Declaramos el uso de IA de la siguiente forma:
 
 <!-- ⚠️ COMPLETAR: Escribir reflexión personal sin uso de IA -->
 [Reflexión personal — escribir sin IA]
+
