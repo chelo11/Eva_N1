@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: ms-vehiculos
+  datasource:
+    url: ${DB_URL:jdbc:mysql://database-1.cj6ww6io2ki7.us-east-1.rds.amazonaws.com:3306/vehiculos?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true}
+    username: ${DB_USERNAME:admin}
+    password: ${DB_PASSWORD:Losartan4098.}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: ${SERVER_PORT:9004}
