@@ -251,4 +251,4 @@ Como reflexion final, quiero recalcar que el trabajo fue realizado en equipo, y 
 **Daniel Rios:**
 
 <!-- ⚠️ COMPLETAR: Escribir reflexión personal sin uso de IA -->
-
+En esta experiencia pude fijarme que trabajando con GitHub es mucho mas ordenado, teniendo una buena comunicación con el equipo de trabajo, también aprendí a navegar entre ramas con GitHub, mi aporte fue el estructurar el yml, para no tener problemas a la hora de subir el workflows
