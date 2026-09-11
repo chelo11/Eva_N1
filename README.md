@@ -222,7 +222,7 @@ El microservicio se despliega en **2 instancias AWS EC2** con Ubuntu.
 
 | Instancia | IP Pública | Puerto | Rol |
 |-----------|-----------|--------|-----|
-| EVA_1 | `54.157.118.185` | 9004 | Servidor principal |
+| EVA_1 | `54.91.56.16` | 9004 | Servidor principal |
 | EVA_1_ACTION | `34.229.73.22` | 9004 | Servidor secundario |
 
 **Base de datos:** MySQL en AWS RDS (`database-1.cj6ww6io2ki7.us-east-1.rds.amazonaws.com:3306/vehiculos`)
