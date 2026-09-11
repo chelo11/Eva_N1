@@ -245,10 +245,9 @@ Declaramos el uso de IA de la siguiente forma:
 **Marcelo Acevedo:**
 
 <!-- ⚠️ COMPLETAR: Escribir reflexión personal sin uso de IA -->
-[Reflexión personal — escribir sin IA]
 
+Como reflexion final, quiero recalcar que el trabajo fue realizado en equipo, y que no se me da bien el uso de github, pero con ayuda de la IA pude solventar esa falencia, la cual deberia de mejorar, de momento el uso de AWS y el trabajo con base de datos me ha llamado la atencion, y espero poder seguir aprendiendo de ello. Me encargue de que el microservicio pudiera operar de la manera en que nosotros queriamos.
 **Daniel Rios:**
 
 <!-- ⚠️ COMPLETAR: Escribir reflexión personal sin uso de IA -->
-[Reflexión personal — escribir sin IA]
 
