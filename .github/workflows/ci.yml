@@ -1,0 +1,32 @@
+name: CI - Integración Continua
+
+# Se ejecuta con cada push a main (Trunk-based Development)
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Compilar y validar
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar código del repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Java 21 (Temurin)
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+          cache: 'maven'
+
+      - name: Compilar el proyecto con Maven
+        run: chmod +x mvnw && ./mvnw clean package -DskipTests
+
+      - name: Verificar que el JAR fue generado
+        run: ls -la target/*.jar
